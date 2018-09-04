@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+#section1 img{
+	width:1331px;
+	height:225px;
+	}
+#section1 div{
+	position:relative;
+	}
+#section1 h2{
+	position:absolute;
+	color:#ffffff;
+	top:75px;
+	left:80px;
+	font-weight:400;
+	}
+#section2 article{
+	width:1250px;
+	margin:30px auto;
+	color:#202020;
+	}
+#section2 font{
+	font-size:18px;
+	color:#101010;
+	}	
+#section3{
+	margin:50px 350px;
+	border-bottom:1px solid #777777;
+	text-align:center;
+	}
+#section3 a{
+	text-decoration:none;
+	display:inline-block;
+	color:#333333;
+	border:1px solid #333333;
+	border-radius:10px;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	margin:10px 20px;
+	}
+#section3 a:hover{
+	background-color:rgb(255, 117, 33);
+	color:#ffffff;
+	border:1px solid rgb(255, 117, 33);}	
+	

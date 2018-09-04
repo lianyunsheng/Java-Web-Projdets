@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Arial, "黑体";
+	width:1331px;
+	margin:0px auto;
+	}
+header{/*设置页面头部分区的高度和背景色*/
+	height:80px;
+	background-color:#cccccc;
+	margin-top:8px;
+}
+header>div{
+	float:left;
+	height:80px;
+}
+#headerdiv1{
+	width:300px;
+	text-align:center;
+}
+#headerdiv2{
+	width:720px;
+}
+#headerdiv2>div{
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:80px;
+}
+#headerdiv2>div:hover{
+	background:#555;
+	border-radius:20px;}
+#headerdiv2>div>a{
+	text-decoration:none;  /*超链接无下划线*/
+	display:block;
+	width:120px;
+	height:80px;
+    color:#555;
+}
+#headerdiv2>div>a:hover{
+	color:rgb(0, 192, 253);}
+#headerdiv3{
+	width:300px;
+}
+#headerdiv3>div{
+	float:left;
+	width:100px;
+	height:80px;
+	text-align:center;
+}
+#headerdiv3>div>img{
+	margin-top:24px;
+}
+#img4{
+	margin-left:40px;
+}
+#img6{
+	margin-right:40px;
+}
+

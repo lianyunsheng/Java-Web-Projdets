@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>QHYDesign</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+     <servlet-name>mainservlet</servlet-name>
+     <servlet-class>web.MainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>mainservlet</servlet-name>
+     <url-pattern>*.jx</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>product</servlet-name>
+     <servlet-class>web.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>product</servlet-name>
+     <url-pattern>/product.inf</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>news</servlet-name>
+     <servlet-class>web.NewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>news</servlet-name>
+     <url-pattern>/news.inf</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>companynews</servlet-name>
+     <servlet-class>web.CompanyNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>companynews</servlet-name>
+     <url-pattern>/companynews.inf</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>join</servlet-name>
+     <servlet-class>web.JoinServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>join</servlet-name>
+     <url-pattern>/join.inf</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

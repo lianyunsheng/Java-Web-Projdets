@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+#section1{
+	position:relative;
+	}
+#section1 div{
+	width:1131px;
+	position:absolute;
+	left:100px;
+	top:60px;
+	}
+#section1p1{
+	color:#ffffff;
+	font-size:30px;
+	margin-top:0px;
+	margin-bottom:15px;
+	}
+#section1p2{
+	color:#ffffff;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:0px;
+	}
+#section1 div span{
+	display:block;
+	width:57px;
+	border:1px solid #ffffff;
+	}
+#section2{
+	margin:20px auto;
+	text-align:center;
+	line-height:80px;
+	height:80px;
+	}
+#section2 a{
+	display:inline-block;
+	text-decoration:none;
+	color:#444444;
+	font-size:18px;
+	height:50px;
+	width:150px;
+	line-height:50px;
+	border:1px solid #555555;
+	border-radius:25px;
+	}
+#section2 a:hover{
+	border:1px solid rgb(0, 192, 253);
+	background-color:rgb(0, 192, 253);
+	color:#ffffff;
+	}
+#section3{
+	
+	}
+#section3 a{
+	text-decoration:none;
+	color:#333333;
+	}
+#section3 a:hover{
+	color:rgb(105, 249, 0);
+	}
+#section3 ul{
+	list-style:none;
+	}
+#section3 li{
+	display:block;
+	font-size:18px;
+	width:122	0px;
+	}
+#section3 span{
+	float:right;
+	color:#aaaaaa;
+	font-size:16px;}
+#section3 em{
+	display:inline-block;
+	width:33px;
+	height:30px;
+	font-weight:600;
+	}	
